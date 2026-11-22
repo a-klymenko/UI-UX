@@ -1,0 +1,1 @@
+<script setup>defineProps({title:String,subtitle:String,to:String,tone:{type:String,default:'plain'},icon:String})</script><template><RouterLink :to="to" class="action-card" :class="'tone-'+tone"><span class="action-symbol">{{icon}}</span><span><strong>{{title}}</strong><small>{{subtitle}}</small></span><span class="arrow">›</span></RouterLink></template>

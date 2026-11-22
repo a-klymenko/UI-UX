@@ -1,0 +1,1 @@
+<script setup>defineProps({title:String,tone:{type:String,default:'mint'}})</script><template><span class="donor-badge" :class="'donor-'+tone">{{title}}</span></template>

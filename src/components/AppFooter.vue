@@ -1,0 +1,1 @@
+<template><footer class="site-footer container">© 2026 ЄдинеСерце</footer></template>

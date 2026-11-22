@@ -1,0 +1,1 @@
+<script setup>defineProps({state:{type:String,default:'pending'}})</script><template><span class="status-badge" :class="'status-'+state"><span aria-hidden="true">{{state==='verified'?'✓':'!'}}</span> {{state==='verified'?'Перевірено':'Не перевірено'}}</span></template>
